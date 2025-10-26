@@ -20,5 +20,5 @@ content = response.read().decode('utf-8')
 
 print(content)
 
-with open('weibo.html','w',encoding='utf-8') as f:
+with open('../weibo.html', 'w', encoding='utf-8') as f:
     f.write(content)
